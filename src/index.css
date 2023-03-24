@@ -1,3 +1,13 @@
 @tailwind base;
+
+@layer base {
+    html {
+        @apply text-zhort-gray;
+    }
+    body {
+        @apply bg-zhort-darker;
+    }
+}
+
 @tailwind components;
 @tailwind utilities;
