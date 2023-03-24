@@ -16,10 +16,6 @@ const navigation = [
     { name: 'Application Settings', href: '#', icon: CogIcon },
 ]
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-}
-
 export default function Sidebar() {
     const [sidebarOpen, setSidebarOpen] = useState(false)
 
@@ -168,10 +164,6 @@ export default function Sidebar() {
                         />
                     </a>
                 </div>
-
-                <main className="py-10 lg:pl-72">
-                    <div className="px-4 sm:px-6 lg:px-8">{/* Your content */}</div>
-                </main>
             </div>
         </>
     )
